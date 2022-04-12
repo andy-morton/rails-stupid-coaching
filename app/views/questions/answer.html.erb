@@ -1,0 +1,29 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+
+<div class="blockquote">
+  <%= @answer %>
+  <br>
+</div>
+<div class="blockquote-footer">
+  <%= "You" %>
+  <br>
+  <br>
+</div>
+
+<div id="response">
+  <div class="blockquote">
+    <%= @response %>
+    <br>
+  </div>
+  <div class="blockquote-footer">
+      <%= "Your coach" %>
+      <br>
+      <br>
+  </div>
+</div>
+
+<div>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
+</div>
